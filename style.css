@@ -13,7 +13,7 @@
 }
 
 .header-right ul {
-    display: block;
+    display: flex;
     font-family: 'Julius Sans One', sans-serif;
     
 }
@@ -185,6 +185,13 @@ li {
 
 
 @media screen and (max-width:  780px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        overflow: hidden;
+    }
+
     #Blog li {
         width: 100%;
         margin-bottom: 30px;}
