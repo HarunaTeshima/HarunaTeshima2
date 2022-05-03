@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10px;
+    margin: auto;
+    background-color: white;
+    /* padding: 10px 20px; */
     
 }
 
@@ -208,11 +210,11 @@ li {
 
     .header-right{ 
         position: fixed;
-        padding: 10px;
-        top: 50px; 
+        /* padding: 10px; */
+        top: 37px; 
         right: -220px;
         transition: right 1s ease;
-        overflow: hidden;
+        padding: 5px;
      }  
     /* .header-right ul{ */
         /* display: block; */
