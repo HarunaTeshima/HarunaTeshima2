@@ -113,12 +113,13 @@ ul {
 
 h3 {
     display: block;
-    font-size: 1.17em;
+    font-size: 1.20em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: bold ;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 p {
@@ -130,6 +131,7 @@ p {
     /* padding: 20px; */
     margin-bottom: 60px;
     margin-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 li {
@@ -169,7 +171,7 @@ li {
 
 
 
-@media screen and (max-width: 600px){
+@media screen and (max-width:  780px){
     #Blog li {
         width: 100%;
         margin-bottom: 30px;}
@@ -206,7 +208,7 @@ li {
 
     .header-right ul {
         display: block;
-        margin-right: 30px;
+        margin-right: 10px;
 
     }
 
